@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color: #71A1D5;
+}
+.top-bar .bottom-bar {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+.top-bar a {
+  color: #71A1D5;
+}
+.top-bar a:hover {
+  color: #F6B5D1;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #F6B5D1;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu {
+  background-color: #F6B5D1;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: #ffffff;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li {
+  border-bottom: 1px solid white;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #71A1D5;
+}
+main {
+  width: 100%;
+  min-height: 500px;
+}
+footer {
+  width: 100%;
+  min-height: 200px;
+}
+.underline {
+  border-bottom: 2px solid #1AAFA1;
+}
+footer .navbar-nav .navbar-item .nav-link:hover {
+  color: #71A1D5;
+}
+#service a {
+  text-decoration: none;
+  color: #F6B5D1;
+}
+#service a:hover {
+  text-decoration: none;
+  color: #71A1D5;
+}
+#why {
+  width: 100%;
+  min-height: 400px;
+  background-image: url("../images/whyy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.client-image {
+  width: 100%;
+  position: relative;
+}
+.before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 8px;
+  background-color: rgba(228, 228, 228, 1);
+}
+.after {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  padding: 8px;
+  background-color: rgba(228, 228, 228, 1);
+}
